@@ -1,0 +1,176 @@
+#backg {
+background-color:#E5E4E2;
+}
+
+.navbar {
+    background-color:#818589; 
+}
+
+#introsec {
+    padding:20px;
+    text-align: center;
+}
+
+#about {
+    font-family:lucida bright, georgia;
+}
+
+.words {
+    font-family:cursive;
+}
+
+#vidcont {
+    text-align:center;
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:#A7C9FB;
+}
+
+#vid1 {
+   width:90%;
+   height:450px;
+}
+
+.foot {
+  padding:40px 0;
+  background-color:#818589;
+  color:#FFBD59;
+}
+
+.foot ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.foot li {
+  padding:0 10px;
+}
+
+.foot ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.foot ul a:hover {
+  opacity:1;
+}
+
+.foot .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.foot .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.foot .social > a:hover {
+  opacity:0.9;
+}
+
+.foot .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#FFBD59;
+  margin-bottom:0;
+}
+
+.find {
+    text-align:center;
+    overflow: hidden;
+}
+
+.sch:hover{
+    background-color:#A7C9FB;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/*front side */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* back side */
+.flip-card-back {
+  background-color:black;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.figimg {
+    width:300px;
+    height:300px;
+    float: left;
+}
+
+#figs {
+    margin: 50px;
+    
+}
+
+#ntb {
+    font-size:60px;
+    text-align:center;
+    font-family:lucida bright;
+    color:#A7C9FB;
+}
+
+#qnb {
+    text-align:center;
+    font-family:lucida bright;
+}
+
+.figwrd {
+    text-align: center;
+    margin:50px;
+    font-family:cursive;
+}
